@@ -1,0 +1,93 @@
+body {
+    background-image: url("assets/haha.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+P {
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+img {
+    width: 200px;
+    height: 350px;
+    position: relative;
+    bottom: -20em;
+    left: 25em;
+    z-index: -1;
+}
+h1{
+    color: blue;
+}
+
+.jokeBubble {
+    width: 250px;
+    height: 150px;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 20%;
+    position: relative;
+    top: 3em;
+    left: 27em;
+}
+
+.jokeBubbleTip {
+   width: 100px;
+   height: 50px;
+   transform: skew(120deg);
+   background-color: white;
+    position: relative;
+    top: -.5em;
+    left: 37em;
+    z-index: -1;
+}
+
+.heckler1 {
+    width: 125px;
+    height: 50px;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 20%;
+    position: relative;
+    bottom: -20em;
+    left: 10em;
+}
+
+h2 {
+    font-family: Helvetica;
+    font-size: 25px;
+    text-align: center; 
+    
+}
+
+.heckler2 {
+    width: 125px;
+    height: 50px;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 20%;
+    position: relative;
+    bottom: -30em;
+    left: 55em;
+    
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.heckler3 {
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 20%;
+    position: relative;
+    bottom: -15em;
+    left: 27em;
+}
